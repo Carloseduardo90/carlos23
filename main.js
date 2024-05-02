@@ -20,7 +20,9 @@ const tempoObjetivo3 = new Date("2023-12-30T00:00:00");
 const tempoObjetivo4 = new Date("2024-02-01T00:00:00");
 
 let tempoAcontadores[0].textContent = tempoObjetivo1 - tempoAtual;
-function calculaTempo(tempoObjetivo) {
+let tempoAcontadores[1].textContent = tempoObjetivo1 - tempoAtual;
+function calculaTempo(tempoObjetivo) 
+{
     let tempoAtual = new Date();
     let tempoFinal = tempoObjetivo - tempoAtual;
     let segundos = Math.floor(tempoFinal / 1000);
